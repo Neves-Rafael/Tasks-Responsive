@@ -1,10 +1,18 @@
 import { createGlobalStyle } from "styled-components";
+import { LAYOUT_BREAKPOINTS } from "../styles/layoutBreakpoints";
 
 export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  :root{
+    font-size: 16px;
+    @media (max-width: ${LAYOUT_BREAKPOINTS.MD}) {
+      font-size: 12px;
+    }
   }
 
   body {
