@@ -12,7 +12,8 @@ export const Container = styled.aside`
 
   @media (max-width: ${LAYOUT_BREAKPOINTS.MD}) {
     grid-area: none;
-    display: none;
+    position: absolute;
+    z-index: 1;
   }
 `;
 
