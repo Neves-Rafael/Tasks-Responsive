@@ -14,6 +14,13 @@ export const Container = styled.aside`
     grid-area: none;
     position: absolute;
     z-index: 1;
+
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+
+    &[data-menu-is-open="true"] {
+      transform: translateX(0);
+    }
   }
 `;
 

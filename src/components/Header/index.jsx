@@ -4,10 +4,10 @@ import { Button } from "../Button";
 
 import { Container, Menu } from "./styles";
 
-export function Header() {
+export function Header({ openMenu }) {
   return (
     <Container>
-      <Menu>
+      <Menu onClick={openMenu}>
         <List />
       </Menu>
       <h1>Tarefas</h1>

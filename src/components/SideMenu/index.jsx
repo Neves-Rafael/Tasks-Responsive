@@ -10,16 +10,18 @@ import {
 
 import { Container, Footer, Nav, Title, Header, Button } from "./styles";
 
-export function SideMenu() {
+export function SideMenu({ menuIsOpen, onCloseMenu }) {
   return (
-    <Container>
+    <Container data-menu-is-open={menuIsOpen}>
       <Header>
         <Title>
           <CheckCircle /> e-Tasks
         </Title>
-        <Button>
-          <X />
-        </Button>
+        {menuIsOpen && (
+          <Button onClick={onCloseMenu}>
+            <X />
+          </Button>
+        )}
       </Header>
 
       <Nav>
@@ -38,10 +40,10 @@ export function SideMenu() {
       </Nav>
 
       <Footer>
-        <img src="https://github.com/rodrigorgtic.png" alt="Foto do usuário" />
+        <img src="https://github.com/Neves-Rafael.png" alt="Foto do usuário" />
         <div>
-          <strong>Rodrigo Gonçalves</strong>
-          <small>rodrigo@email.com</small>
+          <strong>Rafael Neves</strong>
+          <small>nevesrafael.dev@gmail.com</small>
         </div>
 
         <Button type="button">
