@@ -7,7 +7,11 @@
 <br/>
 <p align="center">Foi utilizado Styled-components juntamente com React.</p>
 <br/>
+<br/>
 
+<p align="center">Projeto desenvolvido durante o curso <strong>Explorer</strong> oferecida pela <a href="https://app.rocketseat.com.br/">RocketSeat</a>.<br/>
+<br/>
+<br/>
 
 
 <h1 align="center">⭐ Layout</h1>
