@@ -1,4 +1,4 @@
-<h1 align="center">Tasks Responsive</h1>
+<h1 align="center">📱 Tasks Responsive</h1>
 
 ![image](https://github.com/Neves-Rafael/Tasks-Responsive/assets/136202919/0c11c518-f82d-4ddf-98fb-62abbbc61a52)
 
