@@ -19,9 +19,9 @@
 <br/>
 <br/>
 <p align="center">
-  <img width="200px" src="https://github.com/Neves-Rafael/Tasks-Responsive/assets/136202919/dc7735a9-e48a-4d0a-a7c2-d5a6324586f8">
-  <img width="200px" src="https://github.com/Neves-Rafael/Tasks-Responsive/assets/136202919/ddbc9796-1506-4b4f-9c5c-23e145d6bb2c">
-  <img width="300px" src="https://github.com/Neves-Rafael/Tasks-Responsive/assets/136202919/2c7d1286-c8a2-415a-84a5-5381363d80f1">
+  <img width="200px" height="300px" src="https://github.com/Neves-Rafael/Tasks-Responsive/assets/136202919/dc7735a9-e48a-4d0a-a7c2-d5a6324586f8">
+  <img width="200px" height="300px" src="https://github.com/Neves-Rafael/Tasks-Responsive/assets/136202919/ddbc9796-1506-4b4f-9c5c-23e145d6bb2c">
+  <img width="300px" height="300px" src="https://github.com/Neves-Rafael/Tasks-Responsive/assets/136202919/2c7d1286-c8a2-415a-84a5-5381363d80f1">
 </p>
 
 
